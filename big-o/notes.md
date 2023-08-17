@@ -1,4 +1,4 @@
-types of big o expressions
+# types of big o expressions
 
 1. O(n^2) terrible
 2. O(nlog n) bad
