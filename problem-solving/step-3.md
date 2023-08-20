@@ -13,7 +13,7 @@
   }
 
   function charCount(str) {
-  // make object ti return at end
+  // make object it return at end
   // return over string
   // if char is a number/letter AND is key in object, add it and set value to 1
   // if char is a number/letter AND not in object, add it to the object and set value to 1
