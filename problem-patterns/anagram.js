@@ -5,7 +5,6 @@ function anagram(first, second) {
   }
 
   const search = {};
-
   for (let i = 0; i < first.length; i++) {
     let letter = first[i];
     //! if letter exists, increment, otherwise set to 1
@@ -22,7 +21,6 @@ function anagram(first, second) {
       search[letter] -= 1;
     }
   }
-
   return true;
 }
 
