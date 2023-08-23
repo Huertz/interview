@@ -26,7 +26,7 @@ function charCount(str) {
   return obj;
 }
 
-//! function is faster than expressions
+//! this particular function is faster than expressions
 function charCode(char) {
   var code = char.charCodeAt(0);
   if (
@@ -39,4 +39,4 @@ function charCode(char) {
   return true;
 }
 
-console.log(charCount('okay '));
+console.log(charCount('Jose Alfredo Huerta'));
