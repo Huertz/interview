@@ -19,3 +19,8 @@
 - Object traversal
 - We will see it with more complex data structures
 - It's sometimes a clean alternative to iteration
+
+# Why do I care?
+
+- You're used to function being pushed on the call stack and popped off when they are donde
+- When we write recursive functions, we keep pushing new functions onto the call stack!
