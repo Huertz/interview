@@ -30,4 +30,5 @@
 - Where things can go wrong
 
 1. No base case
-2.
+2. Forgetting to return or returning the wrong thing!
+3. Stack overflow!
