@@ -16,4 +16,21 @@ function bubbleSort(arr) {
 bubbleSort([37, 45, 29, 8]);
 
 //! optimize
-function bubbleSort1(arr) {}
+function bubbleSort1(arr) {
+  var noSwap;
+  for (var i = arr.length; i > 0; i--) {
+    for (var j = 0; j < i - 1; j++) {
+      noSwap = true;
+      if (arr[j] > arr[j + 1]) {
+        //! swap
+        var temp = arr[j];
+        arr[j] = arr[j + 1];
+        arr[j + 1] = temp;
+        noSwap = false;
+      }
+    }
+  }
+  return arr;
+}
+
+bubbleSort1([37, 45, 29, 8]);
