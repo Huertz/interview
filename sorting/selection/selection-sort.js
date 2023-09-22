@@ -7,9 +7,11 @@ function selectionSort(arr) {
       }
     }
     //! logic to swap items
-    var temp = arr[i];
-    arr[i] = arr[lowest];
-    arr[lowest] = temp;
+    if (i !== lowest) {
+      var temp = arr[i];
+      arr[i] = arr[lowest];
+      arr[lowest] = temp;
+    }
   }
   return arr;
 }
