@@ -19,3 +19,5 @@
 - Sorting is fundamental
 - All hava average time complexity that are quadratic
 - We can due better... but we need more complex algorithms
+
+# Intermediate Sorting Algorithms
