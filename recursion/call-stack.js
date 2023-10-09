@@ -4,8 +4,7 @@
 //? It;s named the call stack!
 
 //! The call stack
-//? It's a stack data structure - we'll talk about that later
-//? Any time a function is inkoed it is places(pushed) on the top of the call stack
+//? Any time a function is invoked it is places(pushed) on the top of the call stack
 //? When Javascript sees the return keyword or when the function ends, the compiler will remove(pop)
 
 //! Example
