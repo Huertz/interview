@@ -27,8 +27,15 @@
 
 # Common recursion pitfalls
 
-- Where things can go wrong
-
 1. No base case
+
+- The condition when the recursion ends[the most important concept to understand]
+
 2. Forgetting to return or returning the wrong thing!
+
 3. Stack overflow!
+
+# Two essential parts of the recursive function
+
+- Bae case
+- Different input

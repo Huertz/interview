@@ -5,7 +5,7 @@ function sumRange(num) {
   return num + sumRange(num - 1);
 }
 
-sumRange(3);
+console.log(sumRange(4));
 
 //? return 3 + sumRange(2)
 //? return 2 + sumRange(1)
