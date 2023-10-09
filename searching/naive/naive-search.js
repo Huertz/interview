@@ -1,15 +1,15 @@
 function naiveSearch(long, short) {
   var count = 0;
+
   for (var i = 0; i < long.length; i++) {
     for (var j = 0; j < short.length; j++) {
-      //! short j equals to omg
-      //! [i + j] helps track the string
+      // [i + j] helps track the array
       if (short[j] !== long[i + j]) break;
-      //! if index of j = 2 the omg matches it increments a score
+      // if index of j = 2 the omg matches it increments a score
       if (j === short.length - 1) count++;
     }
   }
   return count;
 }
 
-naiveSearch('lorie loled', 'lol');
+console.log(naiveSearch('lorie loled', 'pop'));
