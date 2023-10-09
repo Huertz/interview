@@ -7,6 +7,29 @@
 - Evaluate the time complexity and space complexity
 - Describe what algorithm is
 
+# Who cares
+
+- It's important to have a preceise vocabulary to talk about how our code performs
+- Useful for discussing trade-offs between different approaches
+- When your code slows down or crashes, indentifying parts of the code that are inefficient can help us find pain points in our applications
+- It comes up in interviews
+
+# What does better mean
+
+- Faster?
+- Less memory-intensive?
+- More readable?
+
+# The problem with time
+
+- Different machines will record different times
+- The same machine will record different times
+- For fast algorithms, speed measurements may not be precise enough
+
+# Big O
+
+- Big O Notation is a way to formalize fuzzy counting
+
 # Big O Cheat Sheet:
 
 - Big O(1) Constant- no loops
