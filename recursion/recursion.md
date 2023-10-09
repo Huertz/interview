@@ -25,6 +25,11 @@
 - You're used to function being pushed on the call stack and popped off when they are donde
 - When we write recursive functions, we keep pushing new functions onto the call stack!
 
+# Two essential parts of the recursive function
+
+- Base case
+- Different input
+
 # Common recursion pitfalls
 
 1. No base case
@@ -35,7 +40,8 @@
 
 3. Stack overflow!
 
-# Two essential parts of the recursive function
+# Pure recursion tips
 
-- Bae case
-- Different input
+- For arrays use methods like slice, the spread operator, and concat that make copies of arryas so you do not mutate them
+- Remember that strings are immutable so you will need to use methods like slice, substr, or substring to make copies of strings
+- To make copies of objects use Object.assing, or the spread operator
