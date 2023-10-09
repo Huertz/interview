@@ -20,15 +20,17 @@
 - Less memory-intensive?
 - More readable?
 
-# The problem with time
+# The problem with time complexity
 
 - Different machines will record different times
 - The same machine will record different times
 - For fast algorithms, speed measurements may not be precise enough
 
-# Big O
+# Space Complexity
 
-- Big O Notation is a way to formalize fuzzy counting
+- Most primitives(booleans, numbers, underdined, null) are constant space
+- String require O(n) space(where n is the string length)
+- Reference types are generally O(n), where n is the length(for arrays) or the numbers of keys(for objects)
 
 # Big O Cheat Sheet:
 
