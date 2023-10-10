@@ -1,6 +1,7 @@
 # JavaScript has a sort method
 
 - Yes, it does!
+- But it doesn't always work the way you expect
 
 # Telling JavaScript how to sort
 
@@ -16,14 +17,16 @@
 
 1.
 
-function compare1(num1, num2) {
-return num1 - num2
-}
+- function compare(num1, num2) {
+  return num1 - num2
+  }
 
 [6,4,15,10].sort(compare1)
+[4,6,10,15]
 
-2. function compare2(str1, str2) {
-   return str1 - str2
-   }
+- function compare(num1, num2) {
+  return num2 - num1
+  }
 
-['Jose', 'Alfredo', 'Huerta', 'Valdes'].sort(compare2)
+[6,4,15,10].sort(compare1)
+[15,10,6,4]
