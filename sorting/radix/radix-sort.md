@@ -9,3 +9,14 @@
 
 - In order to implement radix sort, it's helpful to build a few function first
 - getDigit(num, place) - returns the digit in num at the given place value
+
+# Radix Sort Pseudocode
+
+- Define a function that accepts list of numbers
+- Figure out how many digits the largest number has
+- Loop from k = 0 up to his largest number of digits
+- For each interation of the loop:
+  - Create buckets for each digit(0 to 9)
+  - Place each number in the corresponding bucket based on its kth digit
+- Replace out existing array with values in uor buckets, starting with 0 and going to up 9
+- Return list at the end!

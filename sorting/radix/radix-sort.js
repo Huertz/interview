@@ -1,5 +1,5 @@
 // gerDigits
-function getDigits(num, i) {
+function getDigit(num, i) {
   return Math.floor((Math.abs(num) / Math.pow(10, i)) % 10);
 }
 
@@ -17,3 +17,18 @@ function mostDigits(nums) {
   }
   return maxDigits;
 }
+
+function radixSort(nums) {
+  let maxDigitCount = mostDigits(nums);
+  for (let k = 0; k < maxDigitCount; k++) {
+    let digitBuckets = Array.from({ length: 10 }, () => []);
+    for (let i = 0; i < nums.length; i++) {
+      let digit = getDigit(nums[i], k);
+      digitBuckets[digit].push(nums[i]);
+    }
+    nums = [].concat(...digitBuckets);
+  }
+  return nums;
+}
+
+console.log(radixSort([23, 234, 4444, 12, 2342, 1234]));
