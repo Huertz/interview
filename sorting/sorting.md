@@ -1,5 +1,9 @@
 # Elementary Sorting Algorithms
 
+1. Bubble Sort
+2. Selection Sort
+3. Insertion Sort
+
 # What is sorting?
 
 - Sorting is the process of rearranging the items in a collection(example an array) so that the items are in some kind of order
@@ -21,3 +25,19 @@
 - We can due better... but we need more complex algorithms
 
 # Intermediate Sorting Algorithms
+
+1. Merge Sort
+2. Quick Sort
+3. Radix Sort
+
+# Why learn this?
+
+- The sorting algorithms we've learned so far don't scale well
+- Try out bubble sort on an array of 100,000 elements, it will take quite some time!
+
+# Faster sorts
+
+- There is a family of worting algorithms that can improve the time complexity form O(n^2) to O(n log n)
+- There a tradeoff between efficiency and simplicity
+- There more efficient algorithms are much less simple, and generally take longer to understand
+- Let's dive in!
