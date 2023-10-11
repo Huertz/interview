@@ -20,3 +20,9 @@
   - If the value in the first array is smaller than the value in the secound array, push the value in the first array into ur result and move on the next value in the first array
   - If the value in the first array is larger than the value in the secound array, psuh the value in the secound array into our result and move on the next value in the secound array
   - Once we exhaust one array, push in all remaining values form the other array
+
+# mergeSort Pseudocode
+
+- Break up the array into halves until you have arrays that are empty or have one element
+- Once ypu have smaller smaller sorted arrays, merge those arrays with other sorted arrays until you are back at the full length of the array
+- Once the array has began merged back together, return the merged (and sorted!) array
